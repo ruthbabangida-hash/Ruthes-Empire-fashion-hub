@@ -260,7 +260,7 @@
                 const encodedMessage = encodeURIComponent(whatsappMessage);
                 
                 // Replace YOUR_PHONE_NUMBER with actual WhatsApp number
-                const whatsappURL = `https://wa.me/YOUR_PHONE_NUMBER?text=${encodedMessage}`;
+                const whatsappURL = `https://wa.me/08168144664?text=${encodedMessage}`;
                 
                 // Open WhatsApp
                 window.open(whatsappURL, '_blank');
@@ -313,6 +313,5 @@
                     opacity: 1;
                 }
             }
-        `;
-        document.head.appendChild(successStyle);
+        `
     
