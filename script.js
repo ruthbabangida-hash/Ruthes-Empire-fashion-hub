@@ -73,6 +73,7 @@
             // Create WhatsApp message
             const whatsappMessage = `Hello! I'm ${name} (${email}). ${message}`;
             const encodedMessage = encodeURIComponent(whatsappMessage);
+            // Use international format for WhatsApp number (Nigeria: 2348168144664)
             const whatsappURL = `https://wa.me/2348168144664?text=${encodedMessage}`;
             
             // Open WhatsApp
@@ -259,7 +260,7 @@
                 const whatsappMessage = `Hello! I'm ${name} (${email}). ${message}`;
                 const encodedMessage = encodeURIComponent(whatsappMessage);
                 
-                // Replace YOUR_PHONE_NUMBER with actual WhatsApp number
+                // Use international format for WhatsApp number (Nigeria: 2348168144664)
                 const whatsappURL = `https://wa.me/2348168144664?text=${encodedMessage}`;
                 
                 // Open WhatsApp
@@ -314,5 +315,4 @@
                 }
             }
         `
-
     
