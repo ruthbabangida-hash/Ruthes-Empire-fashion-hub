@@ -73,7 +73,7 @@
             // Create WhatsApp message
             const whatsappMessage = `Hello! I'm ${name} (${email}). ${message}`;
             const encodedMessage = encodeURIComponent(whatsappMessage);
-            const whatsappURL = `https://wa.me/08168144664?text=${encodedMessage}`;
+            const whatsappURL = `https://wa.me/2348168144664?text=${encodedMessage}`;
             
             // Open WhatsApp
             window.open(whatsappURL, '_blank');
@@ -260,7 +260,7 @@
                 const encodedMessage = encodeURIComponent(whatsappMessage);
                 
                 // Replace YOUR_PHONE_NUMBER with actual WhatsApp number
-                const whatsappURL = `https://wa.me/08168144664?text=${encodedMessage}`;
+                const whatsappURL = `https://wa.me/2348168144664?text=${encodedMessage}`;
                 
                 // Open WhatsApp
                 window.open(whatsappURL, '_blank');
@@ -314,4 +314,5 @@
                 }
             }
         `
+
     
